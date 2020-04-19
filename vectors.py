@@ -1,9 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-
 import numpy as np
 import matplotlib.pyplot as plt
+import math as math 
 
 
 
@@ -96,7 +93,6 @@ print(np.dot(b,a)) ## same as above
 
 
 ##vector length(magnitutude-norm)
-import math as math 
 
 v1= np.array([1,2,3,4,5,6])
 length = np.linalg.norm(math.sqrt(np.dot(v1,v1)))
